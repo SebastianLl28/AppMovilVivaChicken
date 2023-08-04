@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
 
     binding.buttonTest.setOnClickListener {
-      println("Hiciste un cambio nasheeeeeeeee")
+      println("Hiciste un cambio")
     }
   }
 }

@@ -26,7 +26,7 @@
   <androidx.fragment.app.FragmentContainerView
       android:id="@+id/fragment_container_home"
       android:layout_width="0dp"
-      android:layout_height="130dp"
+      android:layout_height="170dp"
       android:name="com.example.fragments.HomeFragment"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
@@ -34,5 +34,21 @@
       android:paddingHorizontal="10dp"
       app:layout_constraintTop_toBottomOf="@+id/textView3" android:layout_marginTop="24dp"
       app:layout_constraintHorizontal_bias="0.0"/>
+
+  <androidx.fragment.app.FragmentContainerView
+      android:id="@+id/fragment_container_product"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:name="com.example.fragments.ProductFragment"
+      tools:layout="@layout/fragment_product"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/fragment_container_home"
+      android:layout_marginTop="20dp"
+      android:paddingHorizontal="10dp"
+      android:paddingBottom="10dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+  />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
